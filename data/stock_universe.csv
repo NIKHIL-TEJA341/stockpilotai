@@ -1,0 +1,51 @@
+symbol,name,sector,market_cap_category,exchange
+RELIANCE.NS,Reliance Industries Ltd,Energy & Conglomerate,Large-cap,NSE
+TCS.NS,Tata Consultancy Services Ltd,Information Technology,Large-cap,NSE
+HDFCBANK.NS,HDFC Bank Ltd,Financial Services,Large-cap,NSE
+INFY.NS,Infosys Ltd,Information Technology,Large-cap,NSE
+ICICIBANK.NS,ICICI Bank Ltd,Financial Services,Large-cap,NSE
+BHARTIARTL.NS,Bharti Airtel Ltd,Telecommunications,Large-cap,NSE
+ITC.NS,ITC Ltd,Consumer Goods,Large-cap,NSE
+SBIN.NS,State Bank of India,Financial Services,Large-cap,NSE
+HINDUNILVR.NS,Hindustan Unilever Ltd,Consumer Goods,Large-cap,NSE
+LT.NS,Larsen & Toubro Ltd,Construction & Engineering,Large-cap,NSE
+BAJFINANCE.NS,Bajaj Finance Ltd,Financial Services,Large-cap,NSE
+MARUTI.NS,Maruti Suzuki India Ltd,Automobile,Large-cap,NSE
+HCLTECH.NS,HCL Technologies Ltd,Information Technology,Large-cap,NSE
+SUNPHARMA.NS,Sun Pharmaceutical Industries Ltd,Healthcare & Pharma,Large-cap,NSE
+TATAMOTORS.NS,Tata Motors Ltd,Automobile,Large-cap,NSE
+NTPC.NS,NTPC Ltd,Power & Utilities,Large-cap,NSE
+ONGC.NS,Oil and Natural Gas Corporation Ltd,Energy,Large-cap,NSE
+POWERGRID.NS,Power Grid Corporation of India Ltd,Power & Utilities,Large-cap,NSE
+TITAN.NS,Titan Company Ltd,Consumer Goods & Retail,Large-cap,NSE
+KOTAKBANK.NS,Kotak Mahindra Bank Ltd,Financial Services,Large-cap,NSE
+ASIANPAINT.NS,Asian Paints Ltd,Consumer Goods,Large-cap,NSE
+AXISBANK.NS,Axis Bank Ltd,Financial Services,Large-cap,NSE
+WIPRO.NS,Wipro Ltd,Information Technology,Large-cap,NSE
+ULTRACEMCO.NS,UltraTech Cement Ltd,Materials & Cement,Large-cap,NSE
+COALINDIA.NS,Coal India Ltd,Mining & Energy,Large-cap,NSE
+FEDERALBNK.NS,The Federal Bank Ltd,Financial Services,Mid-cap,NSE
+POLYCAB.NS,Polycab India Ltd,Industrials & Electricals,Mid-cap,NSE
+PERSISTENT.NS,Persistent Systems Ltd,Information Technology,Mid-cap,NSE
+IDFCFIRSTB.NS,IDFC First Bank Ltd,Financial Services,Mid-cap,NSE
+AUBANK.NS,AU Small Finance Bank Ltd,Financial Services,Mid-cap,NSE
+VOLTAS.NS,Voltas Ltd,Consumer Durables,Mid-cap,NSE
+TATAELXSI.NS,Tata Elxsi Ltd,Information Technology,Mid-cap,NSE
+ASHOKLEY.NS,Ashok Leyland Ltd,Automobile,Mid-cap,NSE
+MPHASIS.NS,Mphasis Ltd,Information Technology,Mid-cap,NSE
+CROMPTON.NS,Crompton Greaves Consumer Electricals Ltd,Consumer Durables,Mid-cap,NSE
+DEEPAKNTR.NS,Deepak Nitrite Ltd,Chemicals,Mid-cap,NSE
+APOLLOTYRE.NS,Apollo Tyres Ltd,Automobile,Mid-cap,NSE
+JUBLFOOD.NS,Jubilant FoodWorks Ltd,Consumer Services,Mid-cap,NSE
+COFORGE.NS,Coforge Ltd,Information Technology,Mid-cap,NSE
+TATACHEM.NS,Tata Chemicals Ltd,Chemicals,Mid-cap,NSE
+CDSL.NS,Central Depository Services (India) Ltd,Financial Services,Small-cap,NSE
+CAMS.NS,Computer Age Management Services Ltd,Financial Services,Small-cap,NSE
+ROUTE.NS,Route Mobile Ltd,Telecommunications,Small-cap,NSE
+HAPPSTMNDS.NS,Happiest Minds Technologies Ltd,Information Technology,Small-cap,NSE
+KPRMILL.NS,K.P.R. Mill Ltd,Textiles,Small-cap,NSE
+MAPMYINDIA.NS,CE Info Systems Ltd,Information Technology,Small-cap,NSE
+LATENTVIEW.NS,Latent View Analytics Ltd,Information Technology,Small-cap,NSE
+ANGELONE.NS,Angel One Ltd,Financial Services,Small-cap,NSE
+BSOFT.NS,Birlasoft Ltd,Information Technology,Small-cap,NSE
+CENTURYTEX.NS,Century Textiles and Industries Ltd,Industrials,Small-cap,NSE
