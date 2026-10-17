@@ -8,16 +8,31 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Load .env file
 load_dotenv(dotenv_path=BASE_DIR / ".env")
 
+def _get_config_var(key: str, default: str = "") -> str:
+    """Retrieve config from environment, falling back to Streamlit secrets if running in cloud."""
+    val = os.getenv(key)
+    if val:
+        return val
+    try:
+        import streamlit as st
+        if hasattr(st, "secrets") and key in st.secrets:
+            s_val = str(st.secrets[key])
+            os.environ[key] = s_val
+            return s_val
+    except Exception:
+        pass
+    return default
+
 class Settings:
     # Groq Configuration
-    GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "")
-    GROQ_MODEL: str = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
+    GROQ_API_KEY: str = _get_config_var("GROQ_API_KEY", "")
+    GROQ_MODEL: str = _get_config_var("GROQ_MODEL", "openai/gpt-oss-120b")
 
     # Application settings
     APP_NAME: str = "StockPilot AI"
-    APP_ENV: str = os.getenv("APP_ENV", "development")
-    DEFAULT_MARKET: str = os.getenv("DEFAULT_MARKET", "NSE")
-    DATABASE_PATH: Path = BASE_DIR / os.getenv("DATABASE_PATH", "stockpilot.db")
+    APP_ENV: str = _get_config_var("APP_ENV", "development")
+    DEFAULT_MARKET: str = _get_config_var("DEFAULT_MARKET", "NSE")
+    DATABASE_PATH: Path = BASE_DIR / _get_config_var("DATABASE_PATH", "stockpilot.db")
     DATA_DIR: Path = BASE_DIR / "data"
     STOCK_UNIVERSE_PATH: Path = BASE_DIR / "data" / "stock_universe.csv"
 
